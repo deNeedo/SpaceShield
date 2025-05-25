@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "coverage_path",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "path_id": "coverage_path_01" }, "geometry": { "type": "LineString", "coordinates": [ [ 16.686453039601027, 50.317796088840474 ], [ 16.846478, 50.297771 ], [ 16.593944426105114, 50.419355745146184 ], [ 16.686453039601027, 50.317796088840474 ] ] } }
+]
+}
