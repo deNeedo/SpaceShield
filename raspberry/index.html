@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formularz zgłoszenia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formularz zgłoszenia</h1>
+  <form method="POST" action="submit.php">
+    <label for="name">Imię:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="surname">Nazwisko:</label><br>
+    <input type="text" id="surname" name="surname" required><br><br>
+
+    <label for="age">Wiek:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <label for="message">Treść zgłoszenia:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Wyślij">
+  </form>
+</body>
+</html>
